@@ -172,12 +172,12 @@ body {
 
 .Annoucements {
     padding-top: 40px;
-    padding-left: 450px;
+    padding-left: 480px;
 }
 
 .PanelContainer {
     display: grid;
-    grid-template: 300px 300px / 500px 500px 500px;
+    grid-template: 300px 300px / 600px 600px 300px;
     width: 70%;
     height: 100% - 64px;
     gap: 25px;
@@ -190,7 +190,7 @@ body {
 .projects {
     background: linear-gradient(to left,white 95%,#F1B500 5%);
     height: 300px;
-    width: 500px;
+    width: 600px;
     border-radius: 10px;
     box-shadow: 0 5px 8px -1px rgba(0, 0, 0, 0.1);
     padding-top: 30px;
@@ -204,11 +204,12 @@ body {
 .AnnoucementMContainer {    
     display: grid;
     justify-content: center;
-    grid-template-columns: 250px;
-    grid-template-rows: 300px 25px 300px;
-    row-gap: 3px;
+    grid-template-columns: 300px;
+    grid-template-rows: 280px 32px 280px;
+    row-gap: 16px;
     grid-row: 1 / 3;
     grid-column: 3;
+    width: 300px;
     height: 100% - 64px;
 }
 
@@ -226,5 +227,5 @@ body {
 
 .trendingW {
     display: flex;
-    align-content: center;
+    align-items: center;
 }
