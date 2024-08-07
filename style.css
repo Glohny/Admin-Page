@@ -172,12 +172,12 @@ body {
 
 .Annoucements {
     padding-top: 40px;
-    padding-left: 435px;
+    padding-left: 450px;
 }
 
-.ProjectContainer {
+.PanelContainer {
     display: grid;
-    grid-template: 300px 300px / 500px 500px;
+    grid-template: 300px 300px / 500px 500px 500px;
     width: 70%;
     height: 100% - 64px;
     gap: 25px;
@@ -185,7 +185,6 @@ body {
     margin-bottom: 20px;
     margin-left: 25px;
 }
-
 
 
 .projects {
@@ -200,4 +199,32 @@ body {
 
 .SmallerText {
     font-weight: 500;
+}
+
+.AnnoucementMContainer {    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 250px;
+    grid-template-rows: 312.5px 20px 312.5px;
+    row-gap: 20px;
+    grid-row: 1 / 3;
+    grid-column: 3;
+    height: 100% - 64px;
+}
+
+.NAnnoucements {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px -1px rgba(0, 0, 0, 0.1);
+}
+
+.trending {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px -1px rgba(0, 0, 0, 0.1);
+}
+
+.trendingW {
+    display: flex;
+    align-content: center;
 }
