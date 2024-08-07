@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 @font-face {
@@ -9,7 +10,8 @@
     src: url("Assets/Fonts/Roboto-Regular.ttf");
 }
 
-html {
+html,body {
+    overflow: auto;
     height: 100%;
     width: 100%;
     font-family: "Roboto";
@@ -24,7 +26,6 @@ body {
     grid-template-areas: 
     "sidebar topbar"
     "sidebar panel";
-    height: 100%;
 }
 
 #sidebar {
@@ -162,4 +163,37 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     width: 100%;
+}
+
+.YourProjects {
+    padding-top: 40px;
+    padding-left: 20px;
+}
+
+.Annoucements {
+    padding-top: 40px;
+    padding-left: 435px;
+}
+
+.ProjectContainer {
+    display: grid;
+    grid-template: 300px 300px / 500px 500px;
+    width: 70%;
+    height: 100% - 64px;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+}
+
+
+
+.projects {
+    background: linear-gradient(to left,white 95%,#F1B500 5%);
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 5px 8px -1px rgba(0, 0, 0, 0.1);
+    padding-top: 20px;
+    padding-left: 30px;
 }
