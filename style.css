@@ -194,6 +194,10 @@ body {
     width: 500px;
     border-radius: 10px;
     box-shadow: 0 5px 8px -1px rgba(0, 0, 0, 0.1);
-    padding-top: 20px;
-    padding-left: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.SmallerText {
+    font-weight: 500;
 }
